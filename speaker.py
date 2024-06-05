@@ -5,7 +5,7 @@ import pdfplumber
 engine = pyttsx3.init()
 
 # lendo o arquivo PDF
-pdf = pdfplumber.open('O elefante em apuros.pdf')
+pdf = pdfplumber.open('O elefante em apuros.pdf') # altere aqui o nome do pdf que sera usado pra a conversão
 
 # gerando lista de páginas do livro (exceto as páginas, 1, 2, 27, 28 e 29!)
 paginas = pdf.pages[2:-3]
